@@ -1,0 +1,11 @@
+tasks:
+  Insert orders to system, produce receipts and a summary ZIP:
+    robotTaskName: Insert orders to system, produce receipts and a summary ZIP
+condaConfigFile: conda.yaml
+ignoreFiles:
+- .gitignore
+artifactsDir: output
+PATH:
+- .
+PYTHONPATH:
+- .
